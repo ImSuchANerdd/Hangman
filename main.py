@@ -60,3 +60,6 @@ def main():
    main()
   else:
     print("Bye!")
+
+if __name__ == "__main__":
+  main()
