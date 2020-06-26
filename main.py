@@ -10,3 +10,11 @@ def play(word):
   guessed = False
   guessed_letters = []
   tries = 5
+  print("\n")
+  print("Let's play Hangman!")
+  print("\n")
+  print("\n")
+  print("You can guess 5 times. Use them carefully...")
+  print("\n")
+  print("The word consists of", len(word), "letters.")
+  print("\n")
