@@ -22,3 +22,9 @@ def play(word):
     print('You have ' + str(tries) + ' tries left.')
     guess = input("Please guess a letter: ").upper()
     if len(guess) == 1 and guess.isalpha():
+      if guess in guessed_letters:
+        print("You already guessed the letter", guess)
+      elif guess not in word:
+        print(guess, "is not in the word.")
+        tries -= 1
+        guessed_letters.append(guess)
