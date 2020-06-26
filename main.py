@@ -43,3 +43,5 @@ def play(word):
     print(word_completion)
     def sortString(guessed_letters): 
      return ''.join(sorted(guessed_letters))
+    print ("Letters used:", sortString(guessed_letters))
+    print("\n")
