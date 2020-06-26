@@ -53,3 +53,5 @@ def main():
   word = get_word()
   play(word)
   cont = input("Play again? yes/no > ")
+  while cont.lower() not in ("yes","no"):
+   cont = input("Play again? yes/no > ")
