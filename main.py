@@ -41,3 +41,5 @@ def play(word):
     else:
       print("Not a valid guess.")
     print(word_completion)
+    def sortString(guessed_letters): 
+     return ''.join(sorted(guessed_letters))
