@@ -38,3 +38,6 @@ def play(word):
         word_completion = "".join(word_as_list)
         if "-" not in word_completion:
           guessed = True
+    else:
+      print("Not a valid guess.")
+    print(word_completion)
