@@ -45,3 +45,5 @@ def play(word):
      return ''.join(sorted(guessed_letters))
     print ("Letters used:", sortString(guessed_letters))
     print("\n")
+  if guessed:
+    print("Congrats, you guessed the word! You win!")
