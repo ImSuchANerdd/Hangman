@@ -55,3 +55,5 @@ def main():
   cont = input("Play again? yes/no > ")
   while cont.lower() not in ("yes","no"):
    cont = input("Play again? yes/no > ")
+  if cont == "yes":
+   main()
