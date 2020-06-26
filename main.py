@@ -49,3 +49,7 @@ def play(word):
     print("Congrats, you guessed the word! You win!")
   else:
     print("Sorry, you ran out of guesses. The word was " + word + ". Maybe next time!")
+def main():
+  word = get_word()
+  play(word)
+  cont = input("Play again? yes/no > ")
