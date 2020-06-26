@@ -47,3 +47,5 @@ def play(word):
     print("\n")
   if guessed:
     print("Congrats, you guessed the word! You win!")
+  else:
+    print("Sorry, you ran out of guesses. The word was " + word + ". Maybe next time!")
