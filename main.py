@@ -33,3 +33,8 @@ def play(word):
         guessed_letters.append(guess)
         word_as_list = list(word_completion)
         indices = [i for i, letter in enumerate(word) if letter == guess]
+        for index in indices:
+          word_as_list[index] = guess
+        word_completion = "".join(word_as_list)
+        if "-" not in word_completion:
+          guessed = True
