@@ -18,3 +18,7 @@ def play(word):
   print("\n")
   print("The word consists of", len(word), "letters.")
   print("\n")
+  while guessed == False and tries > 0:
+    print('You have ' + str(tries) + ' tries left.')
+    guess = input("Please guess a letter: ").upper()
+    if len(guess) == 1 and guess.isalpha():
